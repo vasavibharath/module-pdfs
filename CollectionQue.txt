@@ -1,0 +1,113 @@
+1. jdk and jre relation
+2. jvm 
+3.typecasting of different types
+4. string objects comparision
+5. substring method
+6. abstract class code based questions
+7. rules of implementing interfaces and abstract classes
+8. difference in interface and abstract class
+9. Pattern,Matcher class examples
+10. Reading String using Scanner and its delimiter
+11. instanceof operator
+12 typecasting of sub and super class references
+13 can we access super and this keyword in static methods
+14 static block,static method and static data need
+15 how to obtain current date, time and zone
+16 how to obtain difference in 2 dates
+
+Collections
+1.  which classes has unique collection
+2. which classes are ordered collection
+3. which classes are sorted collections
+4. which classes store key value pair in ordered manner
+5 which classes store key value pair in sorted manner
+6 which class allows ordered and unique collection
+7 which class allows ordered and unique key value pair collection
+8 which are the collection classes
+9 which interfaces extends Collection interface
+10 classes which implements Set
+11 classes which implements List
+12 classes which implements Queue
+13. Which interface need to be implemented to store user defined objects
+in TreeSet or TreeMap
+14 difference in Comparable and Comparator
+15 What if you will try to store duplicates in unique collection classes
+16 Which collection classes allows null value
+17 Difference in HashMap and HashTable
+18 Difference in Vector and ArrayList
+19 TreeMap<Integer,String>map = new TreeMap<Integer,String>();
+	map.put(12,"abc");
+	map.put(10,"xyz");
+	map.put(22,"sss");
+   System.out.print(map.entrySet());
+20. definition of each collection and map class go through it
+
+FileIO
+1. Can we use file class to do read write operation
+2. Which exception must be handled while using 
+FileInputStream and FileOutputStream 
+3. what is createNewFile() method from file class
+4. which class is used to read multiple files in parallel
+5 which keyword is used to avoid Serialization of a property
+6 which classes are used for Serializing an object
+7 Which interface must be implemented by a class of which object you want to Serialize
+8 class A
+{}
+class B extends A implements Serializable{}
+Can you serialize A class object
+9. class A implements Serializable{}
+class B extends A{} 
+Can i serialize class B and Class A objects
+
+Junit
+1. if i want to initialize a data before executing each test which annotation 
+should be used on init method
+2. if i want to deinitialize data after executing each test which annotation 
+should be used on destroy method
+3. difference between @Before and @BeforeClass
+4. difference between @ After and @AfterClass
+5. class TestDemo
+{
+ @Test
+public void testFun1(){}
+@Ignore
+@Test
+public void testFun2(){}}
+In above code how many test cases will execute
+
+Multithreading
+1.different methods from Thread class and different states of Thread
+2. what is the need of start() method
+3. Which exception need to be handled to use Thread.sleep()
+4. different ways of Synchronization
+
+JDBC
+1. different types of drivers
+2. which driver use middleware
+3. which driver is pure java driver
+4. what will happen if while fetching data we will miss resultset next() call
+5. difference and use of statement, preparedStatement and CallableStatement
+6. which exception must be handled to use Class.forName
+
+Log4j
+1.different types of appenders
+2.different types of layouts
+3. how to obtain a logger
+4. how to set appender and layout in logger
+5. different levels of logger
+6.default level of logger
+7. what if the level is set to info, can you warn,debug,error and fatal
+
+Lambda
+1.different built in functional interfaces
+2.implemetnation of each
+
+stream 
+check methods map(),reduce(),collect(),limit(),distinct() 
+
+Exception Handling
+1.how to handle exception in java
+2.can we cascade the catch block with 1 try, if yes then what should be the sequence of writing catch blocks
+3.what if System.exit(0) is written in finally
+4.what is the difference between throw and throws keyword
+5. what if the method has used throws, what is mandatory for its caller

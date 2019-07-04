@@ -1,0 +1,52 @@
+1. JPA
+
+. how to obtain entityManager in the repository?
+. @PersistentUnit stands for
+. @PersistentContext stands for
+. how to write dynamic query
+. how to find multipleRecords
+. difference between query and TypedQuery
+. is it mandatory to use @Table annotation, @Column, @Id
+. how to use userdefined sequence in jpa entity class 
+
+2. Spring
+. Types of autowiring, what is the default type
+. Which ViewResolver class is used to resolve name of the view
+. What is the need of @RequestParam, @RequestMapping
+. Which annotation is used to obtain parameter sent through url
+. @PathParam is used for
+. @FormParam is used for
+. @ResponseBody is used for
+. @ResponsEntity is used for
+. What is the need of @ModelAttribute, @Valid
+. Why mvc:annotation-driven is configured in spring configuration file
+. @Repository should be used on which class
+. @Service should be used on which class, @Transactional is required for
+. How SpringBoot is different from normal Spring application
+
+3. BDD
+. sendKey() is required for
+. findBy-> can we find by id, name, class
+. POM is used for 
+. difference in TDD and BDD
+. difference in scenario and scenario outline
+. cucumber life cycle hook
+. what is the use of background
+. @CucumberOptions, @Runwith check all these annotations
+. glue stands for
+. what are feature files
+. how to generate step definition with feature files
+. @Before and @After annotation
+
+4. Angular 6
+
+. difference in var and let
+. arrow functions in angular 6
+. metadata of @Component
+. @injectable on Serivice is required for
+. how to configure services
+. how to use routers
+. difference in observable and promise
+. different types of bindings and how to use it
+
+
